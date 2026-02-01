@@ -14,7 +14,7 @@ retry failed jobs safely
 
 expose monitoring endpoints
 
-#🧠 Architecture Overview
+🧠 Architecture Overview
 
 The system is composed of two main services:
 
@@ -88,7 +88,6 @@ Windows
 
 venv\Scripts\activate
 
-
 Linux / Mac
 
 source venv/bin/activate
@@ -160,11 +159,5 @@ fault tolerance
 RESTful service design
 
 observability via stats endpoint
-
-🚀 Resume-Ready Description
-
-Built a fault-tolerant background job scheduler with FastAPI and SQL, supporting concurrent workers, automatic retries, and crash recovery. Designed persistent job state tracking and monitoring endpoints to analyze system throughput and failures.
-
-
 
 Both services operate independently and can scale horizontally.
