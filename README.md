@@ -38,26 +38,12 @@ The system is composed of two main services:
 
   # 🏗️ High-Level Flow
   
-Client
-   |
-   v
-FastAPI Server  --->  SQL Database (jobs table)
+Client --> FastAPI Server  --->  SQL Database (jobs table)
                            ^
                            |
                     Worker Processes
 
-🧩 Components
-distributed-task-scheduler/
-├── api/              # REST API service
-│   └── main.py
-├── worker/           # Background workers
-│   └── worker.py
-├── db/               # Database models + engine
-│   ├── database.py
-│   └── models.py
-├── requirements.txt
-├── .env.example
-└── README.md
+
 
 ⚙️ Tech Stack
 
